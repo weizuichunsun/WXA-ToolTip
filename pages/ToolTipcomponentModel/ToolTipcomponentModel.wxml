@@ -1,0 +1,13 @@
+<!--pages/ToolTipcomponentModel/ToolTipcomponentModel.wxml-->
+<ToolTip id='ToolTip'></ToolTip> 
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <button type="primary" bindtap="successTap">Success</button>
+  <button type="primary" bindtap="infoTap">Info</button>
+  <button type="default" bindtap="warnTap">Warn</button>
+  <button type="warn" bindtap="errorTap">Error</button>
+</view>
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "组件提示框",
+  "usingComponents": {
+    "ToolTip": "../../component/ToolTip/ToolTip"
+  }
+}

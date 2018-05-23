@@ -1,12 +1,14 @@
 {
-  "pages":[
+  "pages": [
+        "pages/ToolTipcomponentModel/ToolTipcomponentModel",
     "pages/index/index",
     "pages/logs/logs"
+
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#353535",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   }
 }
